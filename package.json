@@ -1,0 +1,27 @@
+{
+  "name": "this-todo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "this-todo-app": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.2",
+    "@types/figlet": "^1.5.7",
+    "@types/inquirer": "^9.0.4",
+    "@types/node": "^20.8.6"
+  },
+  "dependencies": {
+    "chalk-animation": "^2.0.3",
+    "figlet": "^1.6.0",
+    "inquirer": "^9.2.11"
+  }
+}
